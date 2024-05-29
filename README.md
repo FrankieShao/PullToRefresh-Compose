@@ -1,8 +1,8 @@
 
 # PullToRefresh Library for Jetpack Compose
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.yourcompany/pulltorefresh.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.yourcompany%22%20AND%20a:%22pulltorefresh%22)
-[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.frankieshao.refreshlayout/refreshlayout.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.frankieshao.refreshlayout%22%20AND%20a:%22refreshlayout%22)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 A simple and customizable "Pull to Refresh" library for Jetpack Compose, supporting custom loading indicators.
 
@@ -19,7 +19,7 @@ Add the following dependency to your `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.yourcompany:pulltorefresh:1.0.0")
+    implementation("io.github.frankieshao.refreshlayout:refreshlayout:1.0.0")
 }
 ```
 ## Usage
@@ -38,7 +38,7 @@ Wrap your content composable (e.g., `LazyColumn, LazyRow`, etc.) with PullToRefr
     }
 
 #### Default Indicator:
-<img src="https://github.com/MambaSJY/RefreshLayout/blob/main/default_indicator.gif" alt="Default Indicator" width="220"/>
+<img src="https://github.com/FrankieShao/PullToRefresh-Compose/blob/main/default_indicator.gif" alt="Default Indicator" width="220"/>
 
 ### Custom Loading Indicator
 To use a custom loading indicator, simply provide a composable function for the `indicator` parameter:
@@ -74,7 +74,7 @@ To use a custom loading indicator, simply provide a composable function for the 
     }
 
 #### Custom Indicator:
-<img src="https://github.com/MambaSJY/RefreshLayout/blob/main/custome_indicator.gif" alt="Default Indicator" width="220"/>
+<img src="https://github.com/FrankieShao/PullToRefresh-Compose/blob/main/custome_indicator.gif" alt="Default Indicator" width="220"/>
 
 
 ## License
